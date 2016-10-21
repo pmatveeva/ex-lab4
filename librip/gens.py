@@ -17,8 +17,6 @@ def field(items, *args):
         while i < len(items):
             if items[i].get(args[0]) is not None:
                 yield items[i].get(args[0])
-            else:
-                continue
             i += 1
     else:
 
